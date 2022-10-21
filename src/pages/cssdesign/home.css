@@ -1,0 +1,96 @@
+
+.cards{
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 100%;
+   margin-top: 15px;
+   margin-bottom: 38px;
+   padding-bottom: 40vh;
+ 
+}
+
+
+.cards div{
+
+position: relative;
+width: 320px;
+height: 390px;
+border: 2px solid grey;
+margin: 10px;
+text-align: center;
+padding: 7px;
+border-radius: 18px;
+
+}
+
+
+
+
+.cards div a button:hover{
+   background-color: black;
+   color: white;
+ 
+   }
+
+.cards div img{
+   width: 260px;
+   height: 290px;
+}
+
+.cards div p{
+   color: black;
+   font-family: sans-serif;
+      font-size: 17px;
+  font-variant: small-caps;
+}
+.cards div h1{
+   color: #333333;
+   font-family: sans-serif;
+      font-size: 17px;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.cards div button{
+
+   position: absolute;
+   transform: translate(-40%, -19%);
+   background-color: #f1f1f1;
+   color: black;
+   font-size: 13px;
+   padding: 7px;
+   border-radius: 15px;
+   
+} 
+.text{
+
+   text-align: center;
+   color: green;
+   overflow: hidden;
+  
+}
+ .banner{
+
+display: flex; 
+height: 40vh;
+margin: 8vh;
+padding: -1vh;
+overflow: hidden;
+
+
+ }
+ @media only screen and (max-width: 450px) {
+   .banner {
+     width: 90%;
+   }
+ }
+
+
+ body{
+
+   background-color: aliceblue;
+ }

@@ -1,0 +1,76 @@
+
+.container-i{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 5px;
+    animation: container 1.5s ease;
+}
+
+.container-i .image{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.container-i .image::before{
+    content: "";
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background-color: wheat ;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.container-i .form-area{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: form 1.8s ease;
+}
+@keyframes form {
+    0%{
+        margin-left: 500px;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+.container-i .form-area form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.container-i .form-area form input{
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+}
+
+
+
+
+.container-i .form-area form button{
+    margin-top: 10px;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 30px;
+    background-color: #62c3fc;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+
+
+
+
